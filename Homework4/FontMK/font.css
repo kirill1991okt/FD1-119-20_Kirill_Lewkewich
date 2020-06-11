@@ -1,0 +1,18 @@
+@font-face {
+  font-family: '7fonts.ru_mkda';
+  src: url('7fonts.ru_mkda.eot');
+  src: url('7fonts.ru_mkda.eot?#iefix') format('embedded-opentype'),
+       url('7fonts.ru_mkda.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuRdOiNk';
+  src: url('MuRdOiNk.svg#MuRdOiNk') format('svg'),
+       url('MuRdOiNk.ttf') format('truetype'),
+       url('MuRdOiNk.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
