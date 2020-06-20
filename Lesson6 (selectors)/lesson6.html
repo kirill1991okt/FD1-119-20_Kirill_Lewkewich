@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+
+    <style>
+      h3::before{
+          content: '-------';
+      }
+      h3::after{
+          content: '-------';
+          background-color: burlywood;
+      }
+
+      span{
+        background-color: red;
+      }
+      div{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Hello Word</h3>
+
+    <div></div>
+
+    <span>Test1</span>
+    <span>Test2</span>
+    <Span>Test3</Span>
+  </body>
+</html>

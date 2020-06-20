@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      body {
+        margin-top: 40px;
+      }
+      .one {
+        min-width: 670px;
+        color: red;
+      }
+      a:hover {
+        color: red;
+      }
+      [href] {
+        color: green;
+        padding: 5px;
+        border-right: solid red 2px;
+      }
+      /* можно ли завернуть а и href как то в одно? */
+      .two {
+        margin: 15px 0;
+      }
+      .two div {
+        float: left;
+        box-sizing: border-box;
+        padding-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Первый способ -->
+    <div class="one">
+      <span><a href="#">Первая ссылка</a></span
+      ><span><a href="#">Вторая ссылка</a></span
+      ><span><a href="#">Третья ссылка</a></span
+      ><span><a href="#">Четвертая ссылка</a></span>
+    </div>
+
+    <!-- Второй способ -->
+    <div class="two">
+      <div><a href="#">Первая ссылка</a></div>
+      <div><a href="#">Вторая ссылка</a></div>
+      <div><a href="#">Третья ссылка</a></div>
+      <div><a href="#">Четвертая ссылка</a></div>
+         </div>
+         <div style="clear: both;"></div>
+
+<!-- Третий способ -->
+<div>
+    <table>
+        <tr>
+            <td>1</td><td>1</td><td>1</td><td>1</td>
+        </tr>
+    </table>
+</div>
+
+  </body>
+</html>
