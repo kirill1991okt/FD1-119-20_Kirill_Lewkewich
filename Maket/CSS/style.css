@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: url('../Img/background.png') top left no-repeat;
+    background-size: 1665px 4053px;
+}
+
+.container{
+    width: 1333px;
+    height: 3669px;
+    margin: 0 0 0 110px;
+    
+}
+
+.travel{
+    width: 664px;
+    height: 315px;
+    margin-top: 115px;
+    margin-left: 345px;
+}
+.travel p{
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    font-size: 24px;
+    text-align:center
+}
+
+.travel img{
+    margin-left: 291px;
+}
