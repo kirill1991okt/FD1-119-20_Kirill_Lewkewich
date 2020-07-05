@@ -45,7 +45,7 @@ body{
 }
 
 .container {
-    width: 1304px;
+    width: 1327px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -94,3 +94,60 @@ padding-top: 68px;
     padding: 10px 45px;
     margin-top: 50px;
 }
+
+.article{
+    margin-top: 284px;
+    }
+
+.articletext {
+color:#AD7835;
+font-family:'Droid Serif', sans-serif;
+font-size:42px;
+text-align:center;
+}
+
+
+.article1, .article2, .article3 {
+    float: left;
+    width: 371px;
+}
+
+.article1{
+    margin-top: 119px;
+}
+
+.article2{
+  margin-top: 205px;  
+  margin-left: 100px;
+}
+
+.article3{
+    margin-top: 119px;
+    margin-left: 98px;
+}
+
+.articletext1 h4, .articletext2 h4, .articletext3 h4{
+    color:#AD7835;
+    font-family:'Droid Serif', sans-serif;
+    font-size:20px;
+    text-align:left;
+    padding: 38px 0 12px 0;
+    border-bottom: #AD7835 solid 2px ;
+    }
+
+ .articletext1 p, .articletext2 p, .articletext3 p{ 
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    text-align:left;
+    line-height: 2;
+    padding: 28px 0 36px 0;
+
+ }
+
+ .articletext1 p:last-child, .articletext2 p:last-child,
+ .articletext3 p:last-child {
+    color:#AD7835;
+    font-family: 'Raleway', sans-serif;
+    text-align:left;
+ }
