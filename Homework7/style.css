@@ -1,0 +1,16 @@
+.background {
+    background-color: rgb(240, 230, 140);
+}
+
+.leftmenu{
+    width: 200px; 
+    float: left;
+}
+
+
+
+.rightmenu {
+        margin-left: 200px;
+        background: url('img/ball3.png') repeat-y top right white;
+}
+
