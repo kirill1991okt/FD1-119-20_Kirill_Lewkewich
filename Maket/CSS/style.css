@@ -63,7 +63,6 @@ body{
 
 .content1{
     background-color: #373737;
-    height: 560px;
     padding-left: 72px;
 }
 
@@ -84,7 +83,7 @@ padding-top: 68px;
     padding-right: 764px;
 }
 
-.content1_1 p:last-child{
+.content1_1 a{
     display: inline-table;
     color: #AD7835;
     font-family: 'Raleway', sans-serif;
@@ -92,9 +91,19 @@ padding-top: 68px;
     text-align:left;
     border: solid #AD7835 1px;
     padding: 10px 45px;
-    margin-top: 50px;
+    margin: 50px 0 58px 0;
+    text-decoration: none;
 }
 
+.content1_1 a:hover{
+    border: solid white 1px;
+    padding: 10px 45px;
+    color: white;
+
+}
+
+
+/* aticle */
 .article{
     margin-top: 284px;
     }
@@ -115,6 +124,20 @@ text-align:center;
 .article1{
     margin-top: 119px;
 }
+
+.article1 .hover, .article2 .hover, .article3 .hover {
+    background-color: #373737;
+    width: 338px;
+    height: 236px;
+}
+
+
+
+.article1 img:hover, .article2 img:hover, .article3 img:hover{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 
 .article2{
   margin-top: 205px;  
@@ -145,9 +168,91 @@ text-align:center;
 
  }
 
- .articletext1 p:last-child, .articletext2 p:last-child,
- .articletext3 p:last-child {
+ .articletext1 a, .articletext2 a,
+ .articletext3 a {
     color:#AD7835;
     font-family: 'Raleway', sans-serif;
     text-align:left;
+    text-decoration: none;
  }
+
+ .articletext1 a:hover, .articletext2 a:hover,
+ .articletext3 a:hover{
+     color: white;
+ }
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* gallery */
+
+
+ .gallerytext{
+     text-align: left;
+     margin-top: 240px;
+     margin-left: 75px;
+ }
+
+ .gallerytext h2{
+    color:#AD7835;
+    font-family:'Droid Serif', sans-serif;
+    font-size:42px;
+ }
+
+
+
+ /* .n7, .n2{
+     float: left;
+ } */
+
+ /* .n1, .n3, .n4, .n5, .n6 {
+     float: right;
+ }
+  */
+ .n7 {
+    margin-left: 72px;
+    margin-right: 28px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.gallery a:last-child{
+    display: inline-table;
+    color: #AD7835;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    text-align: center;
+    border: solid #AD7835 1px;
+    padding: 10px 45px;
+    margin: 50px 0 58px 0;
+    text-decoration: none;
+}
+
+/* contact */
+
+.contact{
+    margin-top: 240px;
+}
+
+.photo2 img{
+    float: left;
+    margin-left: 68px;
+    margin-top: -50px;
+}
+
+.content2{
+    background-color: #373737;
+    padding-right: 320px;
+}
+
+.content2_1 h3{
+    color:#AD7835;
+    font-family:  'Droid Serif', sans-serif;
+    font-size:60px;
+    text-align:right;
+    padding-top: 70px;
+    }
