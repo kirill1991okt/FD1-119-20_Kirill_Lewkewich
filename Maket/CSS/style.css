@@ -8,7 +8,8 @@
 body{
     background:    
     url('../Img/background.png') top  no-repeat;
-    overflow-x: hidden;   
+    overflow-x: hidden;
+    background-color: #171717;   
 }
 
 
@@ -69,18 +70,19 @@ body{
 .content1_1 h3{
 color:#AD7835;
 font-family:  'Droid Serif', sans-serif;
-font-size:21px;
+font-size:42px;
 text-align:left;
 padding-top: 68px;
 }
 
-.content1_1 p{
-    color:#FFFFFF;
+.content1_1 p {
+    color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
-    font-size:16px;
-    text-align:left;
+    font-size: 16px;
+    text-align: left;
     line-height: 2;
     padding-right: 764px;
+    margin-top: 44px;
 }
 
 .content1_1 a{
@@ -203,24 +205,48 @@ text-align:center;
     font-size:42px;
  }
 
-
-
- /* .n7, .n2{
-     float: left;
- } */
-
- /* .n1, .n3, .n4, .n5, .n6 {
-     float: right;
- }
-  */
- .n7 {
+ .nature img:first-child{
+    margin-top: 100px;
     margin-left: 72px;
     margin-right: 28px;
-    margin-bottom: 30px;
-    margin-top: 100px;
-}
+    margin-bottom: 28px;
+ }
 
-.gallery a:last-child{
+ .nature img:nth-of-type(2){
+    margin-bottom: 98px;
+    margin-right: 28px;
+ }
+
+ .nature img:nth-of-type(3){
+    margin-bottom: 98px;
+ }
+
+
+
+ .nature img:nth-of-type(5){
+    margin-top: -73px;
+    float: right;
+ }
+
+ .nature img:nth-of-type(6){
+    float: right;
+    margin-top: -258px;
+    margin-right: 83px;
+ }
+
+
+
+ .nature img:last-child{
+    float: right;
+    margin-top: -258px;
+    margin-right: 482px;
+ }
+
+ .showe {
+     text-align: center;
+ }
+
+.showe a{
     display: inline-table;
     color: #AD7835;
     font-family: 'Raleway', sans-serif;
@@ -231,6 +257,14 @@ text-align:center;
     margin: 50px 0 58px 0;
     text-decoration: none;
 }
+
+.showe a:hover{
+    border: solid white 1px;
+    padding: 10px 45px;
+    color: white;
+}
+
+
 
 /* contact */
 
@@ -246,13 +280,122 @@ text-align:center;
 
 .content2{
     background-color: #373737;
-    padding-right: 320px;
+    
 }
 
-.content2_1 h3{
-    color:#AD7835;
-    font-family:  'Droid Serif', sans-serif;
-    font-size:60px;
-    text-align:right;
+.content2_1 h3 {
+    color: #AD7835;
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 42px;
+    text-align: right;
+    margin-right: 400px;
     padding-top: 70px;
-    }
+}
+
+.content2_1 span:first-of-type {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 130px;
+    border-bottom: solid 1px;
+    padding-bottom: 19px;
+    margin-left: 113px;
+    margin-top: 83px;
+    display: inline-block;
+}   
+
+.content2_1 span:nth-child(3) {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 130px;
+    border-bottom: solid 1px;
+    padding-bottom: 19px;
+    margin-left: 113px;
+    margin-top: 83px;
+    display: inline-block;
+} 
+
+.content2_1 span:last-of-type {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 472px;
+    border-bottom: solid 1px;
+    padding-bottom: 75px;
+    margin-left: 113px;
+    margin-top: 49px;
+    display: inline-block;
+}
+
+.content2_1 a{
+    display: inline-block;
+    color: #AD7835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    border: solid #AD7835 1px;
+    padding: 10px 45px;
+    margin: 50px 0 58px 113px;
+    text-decoration: none;
+}
+
+.content2_1 a:hover{
+    border: solid white 1px;
+    padding: 10px 45px;
+    color: white;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 240px;
+    text-align: center;
+}
+
+.social {
+    list-style-type: none;
+    margin-bottom: 200px;
+
+}
+
+.social li{
+    display: inline-block;
+}
+
+.social li:first-child a{
+    padding: 21px 30px;
+    border: solid 1px #AD7835;
+    margin-right: 27px;
+}
+
+.social li:nth-child(2) a{
+    padding: 28px 25px 21px;
+    border: solid 1px #AD7835;
+    margin-right: 27px;
+}
+
+.social li:nth-child(3) a{
+    padding: 32px 24px 21px 24px;
+    border: solid 1px #AD7835;
+    margin-right: 27px;
+}
+
+.social li:first-child a{
+    padding: 22px 30px;
+    border: solid 1px #AD7835;
+    margin-right: 27px;
+}
+
+.social li:last-child a{
+    padding: 23px 30px;
+    border: solid 1px #AD7835;
+}
+
+.social li a{
+    display: inline-block;
+}
