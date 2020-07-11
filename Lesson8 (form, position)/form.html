@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  
+
+<form action="http://fe.it-academy.by/TestForm.php" method="POST" enctype="multipart/form-data">
+Photo: <br>
+<input type="file" name="photo"><br>
+<input type="text" name="coment" placeholder="Coment to photo" style="width: 200px;"> <br>
+Your password: <br>
+<input type="password" name="password"><br>
+<input type="hidden" name="Photo" value="2">   
+<input type="submit"    value="Publish">
+<br>
+<textarea name="coment" placeholder="text" style="resize: none;"></textarea> <br>
+
+<select name="City" multiple>
+    <optgroup label="Belarus">
+    <option value="gomel">gomel</option>
+    <option value="brest">brest</option>
+    <option value="grodno">grodno</option>
+    <option value="vitebsk">vitebsk</option>
+    <option value="mogolev" disabled>mogolev</option>
+    <option value="minsk">minsk</option>
+</optgroup>
+<optgroup label="Russia">
+    <option value="moskov" selected>moskov</option>
+    <option value="piter">piter</option>
+</optgroup>
+</select>
+<hr>
+<button type="submit">
+<h3>hello</h3>
+</button>
+
+
+</form>
+</body>
+</html> 
