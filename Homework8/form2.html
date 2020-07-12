@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form2</title>
+  <style>
+    table{
+      width: 700px;
+      margin: 0;
+      padding: 0;
+    }
+    td{
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+  <form action="http://fe.it-academy.by/TestForm.php" method="GET" id="form1"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="GET" id="form2"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="GET" id="form3"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="GET" id="form4"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="POST" id="form5"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="GET" id="form6"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="POST" enctype="multipart/form-data" id="form7"></form>
+  <form action="http://fe.it-academy.by/TestForm.php" method="GET" id="form8"></form>
+  <table>
+    <tr>
+      <td>
+        <h4>Простая форма поиска с вариантами:</h4>
+      <fieldset>
+        <legend>Строка поиска</legend>
+        <input type="text" name="search1" maxlength="10" form="form1">
+        <input type="submit" value="Искать" form="form1"><br>
+        <input type="radio" name="brauzer" value="на сайте" form="form1"> на сайте
+        <input type="radio" name="brauzer" value="в google" form="form1"> в Google
+      </fieldset></td>
+      <td>
+        <h4>Простая форма поиска с вариантами:</h4>
+        <fieldset>
+          <legend>Строка поиска</legend>
+          <input type="text" name="search2" maxlength="10" autofocus form="form2">
+          <input type="submit" value="Искать" form="form2"><br>
+          <input type="radio" name="brauzer" value="на сайте" form="form2"> на сайте
+          <input type="radio" name="brauzer" value="в google" form="form2"> в Google
+        </fieldset></td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Простая форма авторизации:</h4>
+        <fieldset>
+          <legend>Авторизируйтесь</legend>
+          <input type="text" name="login" form="form3"> Логин <br>
+          <input type="password" name="password" form="form3"> Пароль <br>
+          <input type="checkbox" value="yes" form="form3"> Оставаться в системе <br>
+          <input type="submit" value="Войти" form="form3">
+        </fieldset></td>
+        <td>
+          <h4>Опрос(голосование):</h4>
+          <fieldset>
+            <legend>Как вам?</legend>
+            <input type="radio" name="voute" value="Ничего" form="form4"> Ничего <br>
+            <input type="radio" name="voute" value="неплохо" form="form4"> Неплохо <br>
+            <input type="radio" name="voute" value="хорошо" form="form4"> Хорошо <br>
+            <input type="radio" name="voute" value="супер" form="form4"> Супер <br>
+            <input type="hidden" name="date_voite"  value="2013.12.31" form="form4">
+            <input type="submit" value="Отправить" form="form4">
+          </fieldset></td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Отзыв:</h4>
+        <fieldset>
+          <legend>Оставьте ваш отзыв</legend>
+          <input type="text" name="name" form="form5"> Имя <br>
+          <input type="email" name="email" form="form5"> e-mail <br>
+          <textarea name="text" placeholder="Форма отправки" form="form5"></textarea> <br>
+          <input type="submit" value="Отправить" form="form5">
+        </fieldset></td>
+        <td>
+          <h4>Выпадающий и мльти список:</h4>
+          <fieldset>
+            <legend>Города РБ</legend>
+            <select name="city" form="form6">
+              <option value="brest">Брест</option>
+              <option value="grodno">Гродно</option>
+              <option value="vitebsk">Витебск</option>
+              <option value="mogilev">Могилев</option>
+              <option value="gomel">Гомель</option>
+              <option value="minsk">Минск</option>
+            </select>
+            <select name="city2" multiple size="8" form="form6">
+              <optgroup label="Города РБ">
+              <option value="brest">Брест</option>
+              <option value="grodno">Гродно</option>
+              <option value="vitebsk">Витебск</option>
+              <option value="mogilev">Могилев</option>
+              <option value="gomel">Гомель</option>
+              <option value="minsk">Минск</option>
+              </optgroup>
+              <optgroup label="Города РФ">
+                <option value="moskva">Москва</option>
+                <option value="ryazan">Рязань</option>
+                <option value="magadan">Магадан</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Ok" form="form6">
+          </fieldset></td>
+    </tr>
+    <tr> 
+      <td>
+        <h4>Загрузка файла на сервер:</h4>
+        <fieldset>
+          <legend>Upload</legend>
+          <p>Файл:</p>
+          <input type="file" name="file" form="form7">
+          <p>Срок хранения (года):</p>
+          <input type="number" name="number" form="form7">
+          <input type="button" value="загрузить" form="form7">
+        </fieldset></td>
+      <td>
+        <h4>Валидация данных HTML5:</h4>
+        <fieldset>
+          <legend>Строка поиска</legend>
+          <input type="text" name="RWord" form="form8"><br>
+          <input type="tel" name="phone" placeholder="+375-29-1234567" form="form8"><br>
+          <input type="button" value="Проверить" form="form8">
+        </fieldset></td>
+    </tr>
+  </table>
+  
+</body>
+</html>

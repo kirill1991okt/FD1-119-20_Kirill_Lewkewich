@@ -1,0 +1,23 @@
+@media all and (max-width: 540px){
+
+  form{
+    margin-top: 10px;
+  }
+
+  form p{
+    float: none;
+  }
+
+  form p:last-of-type{
+    display: inline;
+  }
+
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  
+
+
+}
