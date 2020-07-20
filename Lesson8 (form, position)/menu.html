@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <style>
+    .menu1{
+      width: 200px;
+    }
+    
+    .menu1 > div{
+      background-color: chartreuse; 
+      border: solid 1px blue;
+      position: relative;
+    }
+
+    .menu2{
+      display: none;
+    }
+
+    .menu2 > div{
+      background-color: coral;
+      border: darkblue 1px solid;
+    }
+
+    .menu1 > div:hover .menu2{
+      background-color: darkcyan;
+      display: block;
+      width: 150px;
+      position: absolute;
+      top: 15px;
+      left: 150px;
+      z-index: 1;
+    }
+
+    .menu1 > div:hover .menu2{
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="menu1">
+    <div>Пунскт 1</div>
+    <div>Пунскт 2
+      <div class="menu2">
+        <div><a href="#">пункт1.2</a></div>
+        <div>пункт1.3</div>
+        <div>пункт1.4</div>
+      </div>
+    </div>
+    <div>Пунскт 3</div>
+    <div>Пунскт 4</div>
+    <div>Пунскт 5</div>
+  </div>
+</body>
+</html>
