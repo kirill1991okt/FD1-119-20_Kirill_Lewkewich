@@ -1,0 +1,11 @@
+/* Файл reset */
+@import './reset.css';
+
+/* Базовые стили */
+@import './base.css';
+
+/* Шрифты */
+@import './fonts/font.css';
+
+/* Стиля для страницы HOME */
+@import './header.css'
