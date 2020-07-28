@@ -220,6 +220,7 @@ div.section_about_photo img:first-child {
   position: absolute;
   top: 156px;
   left: -118px;
+  z-index: -1;
 }
 
 .section_menu_atricle {
@@ -305,7 +306,6 @@ div.section_about_photo img:first-child {
   width: 927px;
   display: flex;
   justify-content: center;
-  /* margin: 97px 135px 0 167px; */
   margin: 97px auto 0 auto;
 }
 
@@ -313,18 +313,15 @@ div.section_about_photo img:first-child {
   position: relative;
 }
 
-div.section_reservation_photo img:first-child {
-  margin-left: 47px;
-}
-
 .section_reservation_photo img:last-child {
   position: absolute;
-  top: 234px;
-  left: 0;
+  top: 154px;
+  left: 51px;
+  z-index: -1;
 }
 
 .section_reservation_atricle {
-  margin-left: 102px;
+  margin-left: 151px;
 }
 
 .section_reservation_atricle h3 {
@@ -370,4 +367,78 @@ h4 {
   margin-top: 21px;
   font-weight: bold;
   text-align: center;
+}
+
+/* секция OFFERS */
+
+.section_offers {
+  background-color: #f7f7f7;
+  margin-top: 120px;
+}
+
+.section_offers_text {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section_offers_text > div {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 80px;
+}
+
+.section_offers_text div:nth-child(2) {
+  border-left: solid 2px #d9d9d9;
+  border-right: solid 2px #d9d9d9;
+  padding: 80px;
+}
+
+.order_now {
+  background-image: url("../img/ordernow.png");
+  text-align: center;
+}
+
+.order_now button {
+  text-transform: uppercase;
+  margin: 73px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-dark {
+  padding: 9px 50px;
+}
+
+/* секция BLOG */
+
+.section_blog h3 {
+  margin-top: 100px;
+}
+
+.section_blog_even {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 53px;
+}
+
+.section_blog_even1 {
+  background-image: url("../img/blog/blog1.png");
+  width: 325px;
+  height: 326px;
+}
+
+.section_blog_even2 {
+  background-image: url("../img/blog/blog2.png");
+  width: 325px;
+  height: 326px;
+}
+
+.section_blog_even3 {
+  background-image: url("../img/blog/blog3.png");
+  width: 325px;
+  height: 326px;
 }
