@@ -442,3 +442,85 @@ h4 {
   width: 325px;
   height: 326px;
 }
+
+.section_blog_space {
+  height: 255px;
+  background-color: #f7f7f7;
+  margin-top: -140px;
+}
+
+/* Секция Contact */
+
+.section_contact {
+  margin: 95px auto 0 auto;
+  width: 877px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.section_contact_photo {
+  position: relative;
+}
+
+.section_contact_photo img:last-child {
+  position: absolute;
+  top: 156px;
+  left: -118px;
+  z-index: -1;
+}
+
+.section_contact_atricle {
+  margin-right: 184px;
+}
+
+.section_contact_atricle h3 {
+  text-align: right;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-top: 42px;
+  font-weight: bold;
+}
+
+.section_contact_atricle h4 {
+  text-align: right;
+  text-transform: uppercase;
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 21px;
+  font-weight: bold;
+}
+
+.section_contact_atricle p {
+  text-align: right;
+  margin-top: 27px;
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.section_contact_atricle p:last-child {
+  text-align: right;
+  margin-top: 0;
+}
+
+/* секция Footer */
+
+footer {
+  background-color: #edeff2;
+  width: 100px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_icon a {
+  color: #000;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  text-decoration: none;
+}
