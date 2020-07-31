@@ -422,6 +422,7 @@ h4 {
 .section_blog_even {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 53px;
 }
 
@@ -512,10 +513,16 @@ h4 {
 
 footer {
   background-color: #edeff2;
-  width: 100px;
   margin-top: 200px;
+  border: solid 1px transparent;
+}
+
+footer .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 42px auto;
 }
 
 .footer_icon a {
@@ -523,4 +530,15 @@ footer {
   font-family: "Pacifico", cursive;
   font-size: 25px;
   text-decoration: none;
+}
+
+.footer_text p {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer_items li {
+  display: inline-block;
 }
