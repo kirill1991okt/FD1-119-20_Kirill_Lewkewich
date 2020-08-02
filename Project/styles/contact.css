@@ -1,0 +1,174 @@
+/* Секция HEADER */
+
+.header_contact {
+  background: url("/Project/img/page_contact/header_contact.png");
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  background-color: #0000005e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  z-index: 100;
+}
+
+.contact_menu_icon a {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.contact_menu_ul .menu_li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.contact_menu_ul a {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 3;
+}
+
+.contact_menu_ul .menu_li i {
+  color: #fff;
+}
+
+.menu_link:hover {
+  color: #985e5b;
+  text-decoration: none;
+}
+
+.contact_menu_article_text {
+  margin-top: 454px;
+}
+
+.contact_menu_article_text p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.contact_menu_article_text p:last-child {
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+/* Секция HAPPY */
+
+.section_happy {
+  margin: 100px auto 233px auto;
+  width: 877px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.section_happy_photo {
+  position: relative;
+}
+
+.section_happy_photo img:last-child {
+  position: absolute;
+  top: 156px;
+  left: -118px;
+  z-index: -1;
+}
+
+.section_happy_atricle {
+  margin-right: 184px;
+}
+
+.section_happy_atricle h3 {
+  text-align: right;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-top: 42px;
+  font-weight: bold;
+}
+
+.section_happy_atricle h4 {
+  text-align: right;
+  text-transform: uppercase;
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 21px;
+  font-weight: bold;
+}
+
+.section_happy_atricle p {
+  text-align: right;
+  margin-top: 27px;
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.section_happy_atricle p:last-child {
+  text-align: right;
+  margin-top: 0;
+}
+
+/* секция MESSAGE_CONTACT */
+
+.message_contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_details_phone {
+  margin: 31px 0;
+}
+
+.message_contact h4 {
+  text-transform: uppercase;
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.message_contact h5 {
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.message_contact p,
+p > a {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.map {
+  margin: 100px auto;
+  padding: 0 100px;
+}
