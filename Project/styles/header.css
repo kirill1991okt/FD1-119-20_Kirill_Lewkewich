@@ -436,10 +436,15 @@ h4 {
   background-color: #fff;
   width: 297px;
   height: 297px;
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   top: 14px;
   left: 14px;
+}
+
+.section_blog_even1_2:hover {
+  opacity: 1;
+  transition: 0.4s;
 }
 
 .section_blog_even1_2 li {
@@ -477,10 +482,15 @@ h4 {
   background-color: #fff;
   width: 297px;
   height: 297px;
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   top: 14px;
   left: 14px;
+}
+
+.section_blog_even2_2:hover {
+  opacity: 1;
+  transition: 0.4s;
 }
 
 .section_blog_even2_2 li {
@@ -519,10 +529,15 @@ h4 {
   background-color: #fff;
   width: 297px;
   height: 297px;
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   top: 14px;
   left: 14px;
+}
+
+.section_blog_even3_2:hover {
+  opacity: 1;
+  transition: 0.4s;
 }
 
 .section_blog_even3_2 li {
@@ -545,17 +560,6 @@ h4 {
   text-transform: uppercase;
   margin: 59px 0;
 }
-/* .section_blog_even2 {
-  background-image: url("../img/blog/blog2.png");
-  width: 325px;
-  height: 326px;
-}
-
-.section_blog_even3 {
-  background-image: url("../img/blog/blog3.png");
-  width: 325px;
-  height: 326px;
-} */
 
 .section_blog_space {
   height: 255px;
