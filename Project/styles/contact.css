@@ -71,8 +71,6 @@
   font-size: 30px;
 }
 
-/* секция чекбокс */
-
 /* Секция HAPPY */
 
 .section_happy {
@@ -137,6 +135,7 @@
 .message_contact {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact_details_phone {
@@ -174,4 +173,15 @@ p > a {
 .map {
   margin: 100px auto;
   padding: 0 100px;
+}
+
+input {
+  border: none;
+  border-bottom: solid #f5f7fa 2px;
+}
+
+.form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: solid #f5f7fa 2px;
 }
