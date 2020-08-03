@@ -417,7 +417,7 @@ h4 {
 
 .section_blog_even {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 53px;
 }

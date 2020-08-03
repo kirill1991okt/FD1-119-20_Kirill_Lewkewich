@@ -71,6 +71,8 @@
   font-size: 30px;
 }
 
+/* секция чекбокс */
+
 /* Секция HAPPY */
 
 .section_happy {
@@ -166,6 +168,7 @@ p > a {
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
+  margin-top: 11px;
 }
 
 .map {

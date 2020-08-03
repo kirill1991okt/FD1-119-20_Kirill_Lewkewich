@@ -57,6 +57,9 @@
                   <li class="menu_li"><i class="fas fa-search"></i></li>
                   <li class="menu_li"><i class="fas fa-shopping-cart"></i></li>
                 </ul>
+                <!-- чек бокс -->
+
+                <!-- конец чек бокса -->
               </div>
             </div>
             <div class="contact_menu_article_text">
@@ -93,6 +96,34 @@
         <div class="message_contact">
           <div class="message">
             <h4>Write a message</h4>
+            <div class="form">
+              <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                <div class="textinput">
+                  <input
+                    type="text"
+                    name="first name"
+                    placeholder="First Name*"
+                    pattern="^[a-zA-Z]+$"
+                  />
+                  <input
+                    type="text"
+                    name="last name"
+                    placeholder="Last Name*"
+                    pattern="^[a-zA-Z]+$"
+                  />
+                </div>
+                <div class="email_subject">
+                  <input type="email" name="email" placeholder="Email*" />
+                  <select name="subject">
+                    <option value="subject1">subject</option>
+                    <option value="subject1">2</option>
+                    <option value="subject1">3</option>
+                  </select>
+                </div>
+                <textarea name="textarea" placeholder="Message*"></textarea>
+                <button type="submit" value="send">Send</button>
+              </form>
+            </div>
           </div>
           <div class="contact_details">
             <h4>Contact Details</h4>
