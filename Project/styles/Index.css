@@ -13,3 +13,7 @@
 /* Стиля для страницы CONTACT */
 
 @import "./contact.css";
+
+/* Стили для страницы ABOUT */
+
+@import "./about.css";

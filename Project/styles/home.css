@@ -38,8 +38,8 @@ header {
 .menu_article_text {
   display: inline-block;
   position: absolute;
-  top: 659px;
-  left: 1073px;
+  bottom: 13%;
+  right: 15%;
 }
 
 .menu_article_text p {
@@ -55,14 +55,28 @@ header {
   font-size: 30px;
 }
 
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .carousel-item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+
 .container_carousel-control {
   width: 120px;
   height: 50px;
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 120px;
-  left: 370px;
+  bottom: 13%;
+  left: 17%;
 }
 
 .container_carousel-control a {
@@ -406,7 +420,7 @@ h4 {
 }
 
 .btn-dark {
-  padding: 9px 50px;
+  padding: 9px 25px;
 }
 
 /* секция BLOG */

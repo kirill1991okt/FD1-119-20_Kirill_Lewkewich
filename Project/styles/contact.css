@@ -223,7 +223,7 @@ button {
   text-transform: uppercase;
 }
 
-.message_contact p,
+.message_contact address,
 p > a {
   color: #1e2633;
   font-family: "Montserrat", sans-serif;
