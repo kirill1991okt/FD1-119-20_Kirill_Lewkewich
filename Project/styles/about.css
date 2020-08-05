@@ -1,5 +1,4 @@
-/* Секция HEADER */
-
+/* Секция HEADER  */
 .header_about {
   background: url("/Project/img/about/Background.png");
   height: 700px;
@@ -17,11 +16,11 @@
   z-index: 1;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
+.about_menu {
+  /* display: flex;
+  justify-content: space-between; */
   padding-top: 32px;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 .about_menu_icon a {
@@ -31,7 +30,7 @@
   text-decoration: none;
 }
 
-.about_menu_ul .menu_li {
+/* .about_menu_ul .menu_li {
   display: inline-block;
   padding-right: 20px;
 }
@@ -47,7 +46,7 @@
 
 .about_menu_ul .menu_li i {
   color: #fff;
-}
+} */
 
 .menu_link:hover {
   color: #985e5b;
@@ -71,6 +70,10 @@
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
+
+/* Навигация с сайта */
+
+/* Конец навигации */
 
 /* Секция HISTORY */
 
@@ -179,3 +182,49 @@
   text-align: right;
   margin-top: 0;
 }
+
+/* Секция CAROUSEL_HOURS */
+
+.carousel_hours {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.open_hours {
+  border: 3px solid #ebebeb;
+}
+
+.open_hours > h4 {
+  text-transform: uppercase;
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 41px 60px 26px 64px;
+}
+
+.workweek p {
+  text-align: center;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+
+.weekend p {
+  text-align: center;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+
+.weekend p:last-child {
+  padding-bottom: 41px;
+}
+
+/* Карусель */

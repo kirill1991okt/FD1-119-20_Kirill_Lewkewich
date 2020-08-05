@@ -27,36 +27,44 @@
       <header class="header_about">
         <div class="overlay">
           <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="#"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                  <a class="nav-item nav-link" href="#">Features</a>
-                  <a class="nav-item nav-link" href="#">Pricing</a>
-                  <a
-                    class="nav-item nav-link disabled"
-                    href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Disabled</a
-                  >
+            <!-- Секция навигатор -->
+            <div class="about_menu">
+              <!-- <div class="about_menu_icon">
+                <a href="/Project/Index.html">Renome</a>
+              </div> -->
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a
+                      class="nav-item nav-link disabled"
+                      href="#"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Disabled</a
+                    >
+                  </div>
                 </div>
-              </div>
-            </nav>
+              </nav>
+            </div>
+
+            <!-- конец навигатора -->
 
             <div class="about_menu_article_text">
               <p>about</p>
@@ -113,6 +121,60 @@
         </div>
       </div>
       <hr />
+
+      <div class="container">
+        <div class="carousel_hours">
+          <div class="carousel"></div>
+          <div class="open_hours">
+            <h4>opening hours</h4>
+            <div class="workweek">
+              <p>Monday - Friday</p>
+              <p>9:00 - 22:00</p>
+            </div>
+            <div class="weekend">
+              <p>Saturday - Sunday</p>
+              <p>10:00 - 21:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Секция  FOOTER -->
+      <footer>
+        <div class="container">
+          <div class="footer_icon">
+            <a href="/Project/Index.html">Renome</a>
+          </div>
+          <div class="footer_text">
+            <p>Copyright 2015 Renome by Estetiq</p>
+          </div>
+          <div class="footer_items">
+            <ul>
+              <li>Follow US &#58;</li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
