@@ -1,0 +1,133 @@
+.header_reservation {
+  background: url("/Project/img/reservation/reservation_background.png") center
+    no-repeat;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  background-color: #0000005e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Навигация */
+
+/* конец навигации */
+
+.reservation_menu_article_text {
+  position: absolute;
+  bottom: 15%;
+}
+
+.reservation_menu_article_text p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.reservation_menu_article_text p:last-child {
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+/* Секция Online */
+
+.section_online {
+  display: flex;
+  justify-content: center;
+  margin: 97px auto 100px auto;
+  padding: 0 180px 0 110px;
+}
+
+.section_online_photo {
+  position: relative;
+}
+
+.section_online_photo img:last-child {
+  position: absolute;
+  top: 154px;
+  left: 51px;
+  z-index: -1;
+}
+
+.section_online_atricle {
+  margin-left: 151px;
+}
+
+.section_online_atricle h3 {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-top: 42px;
+  font-weight: bold;
+}
+
+.section_online_atricle h4 {
+  text-transform: uppercase;
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 21px;
+  font-weight: bold;
+}
+
+.section_online_atricle p {
+  margin-top: 27px;
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 3;
+}
+
+/* секция регистрации столика */
+
+.make_reservation h3 {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 120px;
+}
+
+.data_time {
+  text-align: center;
+}
+
+.data_time input[type="date"],
+[type="time"],
+select {
+  border: none;
+  width: 200px;
+  border-bottom: 2px solid #f5f7fa;
+  outline: none;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.data_time input[type="time"] {
+  margin: 0 82px;
+}
+
+/* .data_time input[type="time"]::before {
+  content: "\f406";
+} */
+
+.find_table button {
+  text-transform: uppercase;
+  margin: 0px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;

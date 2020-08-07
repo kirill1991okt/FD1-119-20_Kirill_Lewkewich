@@ -14,7 +14,7 @@
 
 footer {
   background-color: #edeff2;
-  margin-top: 200px;
+  margin-top: 100px;
   border: solid 1px transparent;
 }
 
@@ -74,4 +74,48 @@ footer .container {
   border: 2px solid #1e2633;
   border-radius: 47%;
   padding: 11px 12px;
+}
+
+/* Панель навигации */
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/Project/img/iconfinder_30x30.png");
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-collapse {
+  flex-direction: row-reverse;
+}
+
+.navbar-nav a.nav-item.nav-link {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #985e5b;
+  text-decoration: none;
+}
+
+.navbar-nav i {
+  color: #fff;
+  padding: 3px;
+  margin: 0 8px;
 }

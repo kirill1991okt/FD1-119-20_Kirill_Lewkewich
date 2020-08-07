@@ -17,45 +17,13 @@
   z-index: 1;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 32px;
-  z-index: 100;
-}
+/* секция НАВИГАЦИЯ */
 
-.contact_menu_icon a {
-  color: #fff;
-  font-family: "Pacifico", cursive;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.contact_menu_ul .menu_li {
-  display: inline-block;
-  padding-right: 20px;
-}
-
-.contact_menu_ul a {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 3;
-}
-
-.contact_menu_ul .menu_li i {
-  color: #fff;
-}
-
-.menu_link:hover {
-  color: #985e5b;
-  text-decoration: none;
-}
+/* Конец навигации */
 
 .contact_menu_article_text {
-  margin-top: 454px;
+  position: absolute;
+  bottom: 15%;
 }
 
 .contact_menu_article_text p {

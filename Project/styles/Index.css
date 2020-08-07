@@ -17,3 +17,7 @@
 /* Стили для страницы ABOUT */
 
 @import "./about.css";
+
+/* Стили для страницы RESERVATION */
+
+@import "./resevation.css";

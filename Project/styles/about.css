@@ -16,42 +16,9 @@
   z-index: 1;
 }
 
-.about_menu {
-  /* display: flex;
-  justify-content: space-between; */
-  padding-top: 32px;
-  /* z-index: 100; */
-}
+/* секция НАВИГАЦИЯ */
 
-.about_menu_icon a {
-  color: #fff;
-  font-family: "Pacifico", cursive;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-/* .about_menu_ul .menu_li {
-  display: inline-block;
-  padding-right: 20px;
-}
-
-.about_menu_ul a {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 3;
-}
-
-.about_menu_ul .menu_li i {
-  color: #fff;
-} */
-
-.menu_link:hover {
-  color: #985e5b;
-  text-decoration: none;
-}
+/* Конец навигации */
 
 .about_menu_article_text {
   position: absolute;
@@ -70,10 +37,6 @@
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
-
-/* Навигация с сайта */
-
-/* Конец навигации */
 
 /* Секция HISTORY */
 

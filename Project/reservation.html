@@ -20,14 +20,15 @@
       src="https://kit.fontawesome.com/c4b3b802fe.js"
       crossorigin="anonymous"
     ></script>
-    <title>Contact</title>
+    <title>Reservation</title>
   </head>
   <body>
     <div class="wrapper">
-      <header class="header_contact">
+      <header class="header_reservation">
         <div class="overlay">
           <div class="container">
-            <div class="contact_menu">
+            <!-- секция НАВИГАЦИЯ -->
+            <div class="reservation_menu">
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="/Project/home.html">Renome</a>
                 <button
@@ -66,105 +67,69 @@
                 </div>
               </nav>
             </div>
-            <div class="contact_menu_article_text">
-              <p>contact</p>
-              <p>we welcome you in our restaurant</p>
+
+            <!-- Конец навигации -->
+            <div class="reservation_menu_article_text">
+              <p>reservation</p>
+              <p>book your table at our restaurant now!</p>
             </div>
           </div>
         </div>
       </header>
 
-      <!-- Секция HAPPY -->
+      <!-- Секция online -->
 
       <div class="container">
-        <div class="section_happy">
-          <div class="section_contact_photo">
-            <img src="img/contact/contact1.png" alt="happy1" title="happy1" />
-            <img src="img/contact/contact2.png" alt="happy2" title="happy2" />
+        <div class="section_online">
+          <div class="section_online_photo">
+            <img
+              src="img/reservation/reservation1.png"
+              alt="reservation1"
+              title="reservation1"
+            />
+            <img
+              src="img/reservation/reservation2.png"
+              alt="about2_home"
+              title="about2_home"
+            />
           </div>
-          <div class="section_happy_atricle">
-            <h3>happy</h3>
-            <h4>to hear from you, contact us</h4>
+          <div class="section_online_atricle">
+            <h3>online</h3>
+            <h4>booking, It's easy as an apple pie</h4>
             <p>
-              Please feel free to contact us with any questions or to make
-              reservations. If no one is available to take your call, please
-              leave a message. We will contact you as soon as possible.
+              When you finalize a reservation with OpenTable they will send you
+              a confirmation email immediately. We will also call you on the
+              date of your reservation to confirm your table.
+              <br />
+              <br />
+              If you do not receive an email, or do not hear from the
+              restaurant, we would recommend calling to confirm your table and
+              verify your reservation booking (+1 939 777 55 33).
             </p>
           </div>
         </div>
-      </div>
 
-      <!-- секция MESSAGE_CONTACT -->
+        <!-- секция регистрации столика -->
+        <div class="make_reservation">
+          <h3>Make a Reservation</h3>
+          <div class="data_time">
+            <form action="http://fe.it-academy.by/TestForm.php" method="get">
+              <input type="date" name="date" />
+              <input type="time" name="time" />
+              <select name="number people">
+                <option value="1">1 Person</option>
+                <option value="2">2 Persons</option>
+                <option value="3">3 Persons</option>
+                <option value="4">4 Persons</option>
+                <option value="5">5 Persons</option>
+              </select>
 
-      <div class="container">
-        <div class="message_contact">
-          <div class="message">
-            <h4>Write a message</h4>
-            <div class="form">
-              <form action="http://fe.it-academy.by/TestForm.php" method="get">
-                <div class="textinput">
-                  <input
-                    type="text"
-                    name="first name"
-                    placeholder="First Name*"
-                    pattern="^[a-zA-Z]+$"
-                  />
-                  <input
-                    type="text"
-                    name="last name"
-                    placeholder="Last Name*"
-                    pattern="^[a-zA-Z]+$"
-                  />
-                </div>
-                <div class="email_subject">
-                  <input type="email" name="email" placeholder="Email*" />
-                  <select name="subject">
-                    <option value="subject1">Subject</option>
-                    <option value="subject1">1</option>
-                    <option value="subject1">2</option>
-                    <option value="subject1">3</option>
-                  </select>
-                </div>
-                <div class="textarea_submit">
-                  <textarea name="textarea" placeholder="Message*"></textarea>
-                  <button type="submit" value="send">Send</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="contact_details">
-            <h4>Contact Details</h4>
-            <div class="contact_details_adress">
-              <h5>adress</h5>
-              <address>355 E 5TH ST, MANHATTAN, NY 10003</address>
-            </div>
-            <div class="contact_details_phone">
-              <h5>phone</h5>
-              <p><a href="tel:+19397775533">+1 939 777 55 33</a></p>
-            </div>
-            <div class="contact_details_email">
-              <h5>email</h5>
-              <p>
-                <a href="mailto:reservation@renome.com"
-                  >reservation@renome.com</a
-                >
-              </p>
-            </div>
+              <div class="find_table">
+                <button type="button" class="btn btn-dark">find a table</button>
+              </div>
+            </form>
           </div>
         </div>
-      </div>
-
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.631487294656!2d-73.98909928470344!3d40.72612824468822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25983354b2231%3A0x6619a2d41b9b8bec!2zMzU1IEUgNXRoIFN0LCBOZXcgWW9yaywgTlkgMTAwMDMsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1596519572871!5m2!1sru!2sby"
-          width="100%"
-          height="400"
-          frameborder="0"
-          style="border: 0;"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe>
       </div>
 
       <!-- секция FOOTER -->

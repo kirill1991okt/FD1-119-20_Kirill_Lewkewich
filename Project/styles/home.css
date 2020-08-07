@@ -359,7 +359,7 @@ div.section_about_photo img:first-child {
   line-height: 3;
 }
 
-h3 {
+.our_services h3 {
   color: #1e2633;
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
@@ -368,7 +368,7 @@ h3 {
   text-align: center;
 }
 
-h4 {
+.our_services h4 {
   text-transform: uppercase;
   color: #985e5b;
   font-family: "Montserrat", sans-serif;
@@ -426,7 +426,22 @@ h4 {
 /* секция BLOG */
 
 .section_blog h3 {
+  text-align: center;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
   margin-top: 100px;
+  font-weight: bold;
+}
+
+.section_blog h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 21px;
+  font-weight: bold;
 }
 
 .section_blog_even {
@@ -444,6 +459,7 @@ h4 {
   background-image: url("../img/blog/blog1.png");
   width: 325px;
   height: 326px;
+  margin-bottom: 30px;
 }
 
 .section_blog_even1_2 {
@@ -490,6 +506,7 @@ h4 {
   background-image: url("../img/blog/blog2.png");
   width: 325px;
   height: 326px;
+  margin-bottom: 30px;
 }
 
 .section_blog_even2_2 {
@@ -537,6 +554,7 @@ h4 {
   background-image: url("../img/blog/blog3.png");
   width: 325px;
   height: 326px;
+  margin-bottom: 30px;
 }
 
 .section_blog_even3_2 {
