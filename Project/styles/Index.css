@@ -21,3 +21,7 @@
 /* Стили для страницы RESERVATION */
 
 @import "./resevation.css";
+
+/* Стили для страницы MENU */
+
+@import "./menu.css";
