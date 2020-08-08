@@ -1,2 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&display=swap");
 
+@font-face {
+  font-family: "Streetwear";
+  src: url("Streetwear.eot");
+  src: url("Streetwear.eot?#iefix") format("embedded-opentype"),
+    url("Streetwear.svg#Streetwear") format("svg"),
+    url("Streetwear.ttf") format("truetype"),
+    url("Streetwear.woff") format("woff"),
+    url("Streetwear.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jaapokki-Regular";
+  src: url("Jaapokki-Regular.eot");
+  src: url("Jaapokki-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Jaapokki-Regular.svg#Jaapokki-Regular") format("svg"),
+    url("Jaapokki-Regular.ttf") format("truetype"),
+    url("Jaapokki-Regular.woff") format("woff"),
+    url("Jaapokki-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

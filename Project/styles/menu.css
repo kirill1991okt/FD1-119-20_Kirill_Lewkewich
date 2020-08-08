@@ -95,3 +95,99 @@
   text-align: right;
   margin-top: 0;
 }
+
+/* секция ВЫБОР БЛЮД  */
+
+/* Стилизация TAB MENU */
+
+.nav-link {
+  background-color: transparent;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: transparent;
+  border-bottom: 2px solid brown;
+  border-radius: inherit;
+}
+
+/* Стилизация внутренний элементов */
+
+.item_couse h5 {
+  color: #404040;
+  font-family: "Streetwear";
+  font-size: 22px;
+  margin: 100px 0 0 145px;
+}
+
+.courses_appetizer {
+  display: flex;
+  margin-top: 53px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.courses_image {
+  position: relative;
+}
+
+.courses_image_position {
+  background-color: #985e5bc2;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  /* display: none; */
+  opacity: 0;
+  position: absolute;
+}
+
+.courses_image_position a {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+}
+
+.courses_image_position i {
+  font-size: 26px;
+}
+
+div.courses_image_position:hover {
+  opacity: 1;
+}
+
+.courses_text {
+  align-self: center;
+  flex-basis: 880px;
+}
+
+.courses_text p {
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.courses_text p:first-child {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.courses_price {
+  color: #1e2633;
+  font-family: "Jaapokki-Regular";
+  font-size: 25px;
+  align-self: center;
+  margin-top: 20px;
+}
+.courses_price span {
+  color: #dcdee0;
+}
