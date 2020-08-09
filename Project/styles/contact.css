@@ -133,7 +133,7 @@
 }
 
 .email_subject input[type="email"],
-select {
+.email_subject select {
   border: none;
   border-bottom: solid #f5f7fa 2px;
   width: 100%;
@@ -141,6 +141,7 @@ select {
   color: #1e2633;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  font-weight: normal;
   outline: none;
 }
 
