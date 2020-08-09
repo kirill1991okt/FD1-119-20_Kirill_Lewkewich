@@ -25,3 +25,7 @@
 /* Стили для страницы MENU */
 
 @import "./menu.css";
+
+/* Стили для страницы BLOG404 */
+
+@import "./blog404.css";
