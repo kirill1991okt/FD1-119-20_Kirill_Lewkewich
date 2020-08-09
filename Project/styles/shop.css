@@ -1,0 +1,88 @@
+/* Секция HEADER  */
+.header_shop {
+  background: url("/Project/img/shop/background.png");
+  height: 700px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.overlay {
+  background-color: #0000005e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* секция НАВИГАЦИЯ */
+
+/* Конец навигации */
+
+.menu_shop_article_text {
+  position: absolute;
+  bottom: 15%;
+}
+
+.menu_shop_article_text p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.menu_shop_article_text p:last-child {
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+/* Стилизация TAB MENU */
+
+.nav-link {
+  background-color: transparent;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: transparent;
+  border-bottom: 2px solid brown;
+  border-radius: inherit;
+}
+
+/* Стилизация внутренний элементов */
+
+.tab-content {
+  margin-top: 100px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-title a {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: #985e5b;
+}
+
+.card-text {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
