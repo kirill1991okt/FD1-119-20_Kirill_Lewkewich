@@ -116,6 +116,15 @@ li.breadcrumb-item:last-child {
   margin-top: 30px;
 }
 
+.form_review ::placeholder,
+.textarea ::placeholder {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 /* Описание Таб меню
 Надо задать элементу UL 
 display flex, justify-content center */
@@ -125,6 +134,7 @@ display flex, justify-content center */
 .media_review {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .media_review_image p {
@@ -136,6 +146,11 @@ display flex, justify-content center */
 
 .media_review_image p > span.checked {
   color: #985e5b;
+}
+
+.media_text {
+  margin: 20px 0;
+  flex-basis: 450px;
 }
 
 .media_text p {
