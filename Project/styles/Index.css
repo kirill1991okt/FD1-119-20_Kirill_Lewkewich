@@ -1,4 +1,4 @@
-/* Файл reset */
+﻿/* Файл reset */
 @import "./reset.css";
 
 /* Базовые стили */
@@ -29,3 +29,11 @@
 /* Стили для страницы BLOG404 */
 
 @import "./blog404.css";
+
+/* Стили для страницы SHOP */
+
+@import "./shop.css";
+
+/* Стили для страницы SHOP_PRODUCT_VIEW */
+
+@import "./shop_product_view.css";

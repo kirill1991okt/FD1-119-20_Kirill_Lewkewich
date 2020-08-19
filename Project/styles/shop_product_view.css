@@ -1,0 +1,227 @@
+/* Секция HEADER  */
+.header_shop {
+  background: url("/Project/img/shop/background.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.overlay {
+  background-color: #0000005e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* секция НАВИГАЦИЯ */
+
+/* Конец навигации */
+
+.menu_shop_article_text {
+  position: absolute;
+  bottom: 15%;
+}
+
+.menu_shop_article_text p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.menu_shop_article_text p:last-child {
+  color: #985e5b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+/* ПЕРВАЯ СЕКЦИЯ */
+
+.disription_courses {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* ОПИСАНИЕ ДИВА disription_courses_text */
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb a {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+li.breadcrumb-item:last-child {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.disription_courses_text {
+  margin-left: 70px;
+}
+
+.courses_text_down h4 {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 35px 0;
+}
+
+.courses_text_down h5 {
+  color: #996b6e;
+  font-family: "Jaapokki-Regular";
+  font-size: 25px;
+  margin: 35px 0;
+}
+
+.customer_review {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.customer_review .checked {
+  color: #996b6e;
+}
+
+.courses_discription {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.courses_text_down input[type="number"] {
+  border: none;
+  width: 40px;
+  border-bottom: 2px solid #f5f7fa;
+  outline: none;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Описание Таб меню
+Надо задать элементу UL 
+display flex, justify-content center */
+
+/* Описание элементов таб меню */
+
+.media_review {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media_review_image p {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.media_review_image p > span.checked {
+  color: #985e5b;
+}
+
+.media_text p {
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+.media_date {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* Описание скции форма */
+
+.form {
+  margin: 125px 0;
+}
+
+.form h4 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.form_review {
+  display: flex;
+  justify-content: center;
+}
+
+.form_review input[type="text"],
+[type="email"] {
+  border: none;
+  border-bottom: solid #f5f7fa 2px;
+  width: 100%;
+  margin-right: 50px;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  outline: none;
+}
+
+.rating {
+  margin: 70px 0;
+}
+
+.form .rating > h4 {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: solid #f5f7fa 2px;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  outline: none;
+}
+
+.form_buttom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* секция Related Products */
+
+.related_products h4 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.related_products_cards {
+  display: flex;
+  justify-content: space-evenly;
+}
