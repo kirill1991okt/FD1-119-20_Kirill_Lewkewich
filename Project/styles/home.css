@@ -1,38 +1,33 @@
 header {
   background-color: #fff;
-  height: 101px;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 32px;
+.home_menu {
+  margin: 25px 0;
 }
 
-.menu_icon a {
+.home_menu .navbar-light .navbar-toggler-icon {
+  background-image: url(/Project/img/iconfinder_30x30_black.png);
+}
+
+.home_menu .navbar .navbar-brand {
   color: #000;
   font-family: "Pacifico", cursive;
   font-size: 25px;
   text-decoration: none;
 }
 
-.menu_li {
-  display: inline-block;
-  padding-right: 20px;
-}
-
-.menu_link {
+.home_menu .navbar-nav a.nav-item.nav-link {
   color: #1e2633;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 3;
 }
 
-.menu_link:hover {
+.home_menu .navbar-nav a.nav-item.nav-link:hover {
   color: #985e5b;
   text-decoration: none;
+}
+
+.home_menu .navbar-nav i {
+  color: #1e2633;
 }
 
 .menu_article_text {
