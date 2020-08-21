@@ -48,6 +48,45 @@
   justify-content: center;
 }
 
+/* Описание картинок  */
+.product-gallery {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.product-gallery-featured {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.product-gallery-thumbnails .thumbnails-list li {
+  margin-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.thumbnails-list li img {
+  display: block;
+  width: 100%;
+}
+
+.product-gallery-thumbnails .thumbnails-list li:hover::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #007bff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* ОПИСАНИЕ ДИВА disription_courses_text */
 
 .breadcrumb {
@@ -125,9 +164,10 @@ li.breadcrumb-item:last-child {
   text-transform: uppercase;
 }
 
-/* Описание Таб меню
-Надо задать элементу UL 
-display flex, justify-content center */
+ul.nav-pills {
+  display: flex;
+  justify-content: center;
+}
 
 /* Описание элементов таб меню */
 

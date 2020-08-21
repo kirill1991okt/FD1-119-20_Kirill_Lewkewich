@@ -92,27 +92,32 @@
 
       <div class="container">
         <div class="disription_courses">
-          <div class="disription_courses_img">
-            <img
-              src="img/shop/product_view/view1.png"
-              alt="view1"
-              title="view1"
-            />
-            <img
-              src="img/shop/product_view/view2.png"
-              alt="view2"
-              title="view2"
-            />
-            <img
-              src="img/shop/product_view/view2.png"
-              alt="view2"
-              title="view2"
-            />
+          <div class="product-gallery">
+            <div class="product-gallery-thumbnails">
+              <ol class="thumbnails-list list-unstyled">
+                <li>
+                  <img
+                    src="/Project/img/shop/product_view/view1.png"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  <img src="/Project/img/shop/product_view/view3.png" alt="" />
+                </li>
+              </ol>
+            </div>
+            <div class="product-gallery-featured">
+              <img
+                src="/Project/img/shop/product_view/view1.png"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
           </div>
 
           <div class="disription_courses_text">
             <!-- хлебные крошки -->
-
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -126,7 +131,6 @@
                 </li>
               </ol>
             </nav>
-
             <!-- конец хлебные крошки -->
             <div class="courses_text_down">
               <h4>korean bibimbap</h4>
@@ -190,6 +194,15 @@
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
+            ...
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
             <div class="media_review">
               <div class="media_review_image">
                 <img
@@ -219,10 +232,10 @@
               </div>
             </div>
 
-            <!-- <div class="media_review">
+            <div class="media_review">
               <div class="media_review_image">
                 <img
-                  src="img/shop/product_view/ava1.png"
+                  src="img/shop/product_view/ava2.png"
                   alt="ava1"
                   title="ava1"
                 />
@@ -231,30 +244,21 @@
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star checked"></span>
                   <span class="fa fa-star"></span>
                 </p>
               </div>
+
               <div class="media_text">
                 <p>
-                  Donec maximus at neque pharetra convallis. Fusce tellus odio,
-                  mattis nec nisl sit amet, efficitur congue elit. Mauris
-                  tincidunt ex id dignissim tincidunt.
+                  Morbi lobortis enim auctor pharetra auctor. Vestibulum quis
+                  lorem a ante aliquet fringilla.
                 </p>
               </div>
               <div class="media_date">
                 <p>APR 25, 12:45 pm</p>
               </div>
-            </div> -->
-          </div>
-
-          <div
-            class="tab-pane fade"
-            id="pills-profile"
-            role="tabpanel"
-            aria-labelledby="pills-profile-tab"
-          >
-            ...
+            </div>
           </div>
         </div>
       </div>
@@ -384,5 +388,25 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      // select all thumbnails
+      const galleryThumbnail = document.querySelectorAll(".thumbnails-list li");
+      // select featured
+      const galleryFeatured = document.querySelector(
+        ".product-gallery-featured img"
+      );
+
+      // loop all items
+      galleryThumbnail.forEach((item) => {
+        item.addEventListener("mouseover", function () {
+          let image = item.children[0].src;
+          galleryFeatured.src = image;
+        });
+      });
+
+      // show popover
+      $(".main-questions").popover("show");
+    </script>
   </body>
 </html>
