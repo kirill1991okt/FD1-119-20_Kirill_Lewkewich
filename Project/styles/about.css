@@ -191,3 +191,27 @@
 }
 
 /* Карусель */
+
+.video {
+  display: flex;
+}
+
+.video2 {
+  margin-left: -100px;
+}
+
+.video3 {
+  margin-left: -100px;
+}
+
+div.ytp-title-text {
+  display: none;
+}
+
+a.ytp-title-channel-logo {
+  display: none;
+}
+
+.ytp-chrome-top .ytp-show-cards-title {
+  display: none;
+}
