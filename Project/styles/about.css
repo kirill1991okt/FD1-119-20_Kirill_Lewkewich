@@ -192,7 +192,7 @@
 
 /* Карусель */
 
-/* .video {
+.video {
   display: flex;
 }
 
@@ -214,9 +214,9 @@ a.ytp-title-channel-logo {
 
 .ytp-chrome-top .ytp-show-cards-title {
   display: none;
-} */
+}
 
-.main-carousel {
+/* .main-carousel {
   width: 30vw;
   margin: auto;
 }
@@ -231,4 +231,4 @@ a.ytp-title-channel-logo {
 
 .carousel-cell.is-selected img {
   transform: scale(1);
-}
+} */
