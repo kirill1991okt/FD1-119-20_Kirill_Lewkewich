@@ -1,6 +1,7 @@
 /* Секция HEADER  */
 .header_about {
-  background: url("/Project/img/about/Background.png");
+  background: url("/Project/img/about/Background.png") no-repeat;
+  background-size: cover;
   height: 700px;
   width: 100%;
   position: relative;
@@ -204,7 +205,11 @@
   margin-left: -100px;
 }
 
-div.ytp-title-text {
+a.ytp-title-link.yt-uix-sessionlink {
+  display: none;
+}
+
+.carousel div.ytp-title-channel {
   display: none;
 }
 
@@ -212,10 +217,9 @@ a.ytp-title-channel-logo {
   display: none;
 }
 
-.ytp-chrome-top .ytp-show-cards-title {
+a.ytp-title-link.yt-uix-sessionlink {
   display: none;
 }
-
 /* .main-carousel {
   width: 30vw;
   margin: auto;
