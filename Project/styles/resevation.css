@@ -119,7 +119,8 @@ select {
 }
 
 .data_time input[type="time"] {
-  margin: 0 82px;
+  margin: 0 82px 50px 82px;
+
 }
 
 /* .data_time input[type="time"]::before {

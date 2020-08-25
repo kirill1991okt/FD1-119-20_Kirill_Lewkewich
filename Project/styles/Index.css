@@ -37,3 +37,7 @@
 /* Стили для страницы SHOP_PRODUCT_VIEW */
 
 @import "./shop_product_view.css";
+
+/* медиазапросы */
+
+@import "./media_general.css";
