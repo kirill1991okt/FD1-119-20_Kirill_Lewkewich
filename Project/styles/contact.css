@@ -1,7 +1,8 @@
 /* Секция HEADER */
 
 .header_contact {
-  background: url("/Project/img/page_contact/header_contact.png");
+  background: url("/Project/img/page_contact/header_contact.png") no-repeat;
+  background-size: cover;
   height: 700px;
   width: 100%;
   position: relative;

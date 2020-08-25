@@ -1,38 +1,33 @@
 header {
   background-color: #fff;
-  height: 101px;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 32px;
+.home_menu {
+  margin: 25px 0;
 }
 
-.menu_icon a {
+.home_menu .navbar-light .navbar-toggler-icon {
+  background-image: url(/Project/img/iconfinder_30x30_black.png);
+}
+
+.home_menu .navbar .navbar-brand {
   color: #000;
   font-family: "Pacifico", cursive;
   font-size: 25px;
   text-decoration: none;
 }
 
-.menu_li {
-  display: inline-block;
-  padding-right: 20px;
-}
-
-.menu_link {
+.home_menu .navbar-nav a.nav-item.nav-link {
   color: #1e2633;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 3;
 }
 
-.menu_link:hover {
+.home_menu .navbar-nav a.nav-item.nav-link:hover {
   color: #985e5b;
   text-decoration: none;
+}
+
+.home_menu .navbar-nav i {
+  color: #1e2633;
 }
 
 .menu_article_text {
@@ -150,6 +145,13 @@ div.section_about_photo img:first-child {
 .section_lunch {
   display: flex;
   justify-content: center;
+  margin: 30px 0;
+  position: relative;
+}
+
+.section_lunch_text {
+  align-self: center;
+  margin-right: 100px;
 }
 
 .section_lunch_text h3 {
@@ -157,6 +159,7 @@ div.section_about_photo img:first-child {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   margin-top: 42px;
+  font-weight: bold;
 }
 
 .section_lunch_text h4 {
@@ -167,7 +170,36 @@ div.section_about_photo img:first-child {
   margin-top: 21px;
 }
 
-.lunch_carousel {
+.img1 {
+  position: relative;
+  z-index: 25;
+}
+
+.img2,
+.img3,
+.img4 {
+  position: absolute;
+}
+
+.img2 {
+  top: 15px;
+  right: 105px;
+  z-index: 20;
+}
+
+.img3 {
+  top: 20px;
+  right: 70px;
+  z-index: 10;
+}
+
+.img4 {
+  top: 30px;
+  right: 35px;
+  z-index: 5;
+}
+
+/* .lunch_carousel {
   height: 400px;
   width: 750px;
 }
@@ -209,7 +241,7 @@ div.section_about_photo img:first-child {
   transform: scale(1.2);
   width: 600px;
   height: 400px;
-}
+} */
 
 /* Секция MENU */
 
@@ -281,6 +313,7 @@ div.section_about_photo img:first-child {
   position: relative;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .quote_content_img img {

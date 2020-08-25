@@ -1,6 +1,6 @@
 .header_reservation {
-  background: url("/Project/img/reservation/reservation_background.png") center
-    no-repeat;
+  background: url("/Project/img/reservation/reservation_background.png") no-repeat;
+  background-size: cover;
   height: 700px;
   width: 100%;
   position: relative;
@@ -119,7 +119,8 @@ select {
 }
 
 .data_time input[type="time"] {
-  margin: 0 82px;
+  margin: 0 82px 50px 82px;
+
 }
 
 /* .data_time input[type="time"]::before {

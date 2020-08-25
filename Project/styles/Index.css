@@ -1,4 +1,4 @@
-/* Файл reset */
+﻿/* Файл reset */
 @import "./reset.css";
 
 /* Базовые стили */
@@ -33,3 +33,14 @@
 /* Стили для страницы SHOP */
 
 @import "./shop.css";
+<<<<<<< HEAD
+=======
+
+/* Стили для страницы SHOP_PRODUCT_VIEW */
+
+@import "./shop_product_view.css";
+
+/* медиазапросы */
+
+@import "./media_general.css";
+>>>>>>> bbfbc5f0aa79ffd44b633f486ac9930b46180bda

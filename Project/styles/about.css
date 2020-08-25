@@ -1,6 +1,7 @@
 /* Секция HEADER  */
 .header_about {
-  background: url("/Project/img/about/Background.png");
+  background: url("/Project/img/about/Background.png") no-repeat;
+  background-size: cover;
   height: 700px;
   width: 100%;
   position: relative;
@@ -16,9 +17,9 @@
   z-index: 1;
 }
 
-/* секция НАВИГАЦИЯ */
+/* секция стилизация поиска */
 
-/* Конец навигации */
+/* Конец стилизация поиска */
 
 .about_menu_article_text {
   position: absolute;
@@ -191,3 +192,47 @@
 }
 
 /* Карусель */
+
+.video {
+  display: flex;
+}
+
+.video2 {
+  margin-left: -100px;
+}
+
+.video3 {
+  margin-left: -100px;
+}
+
+a.ytp-title-link.yt-uix-sessionlink {
+  display: none;
+}
+
+.carousel div.ytp-title-channel {
+  display: none;
+}
+
+a.ytp-title-channel-logo {
+  display: none;
+}
+
+a.ytp-title-link.yt-uix-sessionlink {
+  display: none;
+}
+/* .main-carousel {
+  width: 30vw;
+  margin: auto;
+}
+.carousel-cell {
+}
+.carousel-cell img {
+  width: 320px;
+  height: 220px;
+  transform: scale(0.85);
+  transition: transform 0.2s ease;
+}
+
+.carousel-cell.is-selected img {
+  transform: scale(1);
+} */
