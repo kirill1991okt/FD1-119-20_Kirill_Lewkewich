@@ -17,10 +17,6 @@
   z-index: 1;
 }
 
-/* секция стилизация поиска */
-
-/* Конец стилизация поиска */
-
 .about_menu_article_text {
   position: absolute;
   bottom: 15%;
@@ -233,11 +229,6 @@ a.ytp-title-link.yt-uix-sessionlink {
   .open_hours {
     margin-top: 70px;
   }
-
-  /* .video {
-    flex-direction: column;
-    align-self: center;
-  } */
 
   .video2 {
     margin: 0px 20px;
