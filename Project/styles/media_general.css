@@ -28,15 +28,4 @@
   .section_about {
     flex-direction: column;
   }
-
-  .section_history {
-    flex-direction: column;
-    margin: 100px auto 140px auto;
-  }
-
-  .section_history_atricle {
-    margin-top: 150px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
 }

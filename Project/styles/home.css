@@ -84,10 +84,11 @@ header {
 /* Секция ABOUT */
 
 .section_about {
-  width: 927px;
+  /* width: 927px; */
   display: flex;
   justify-content: center;
-  margin: 97px auto 0 auto;
+  margin: 100px 108px 140px 157px;
+  /* margin: 97px auto 0 auto; */
 }
 
 .section_about_photo {
