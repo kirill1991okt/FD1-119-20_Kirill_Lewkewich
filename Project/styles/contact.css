@@ -43,8 +43,8 @@
 /* Секция HAPPY */
 
 .section_happy {
-  margin: 100px auto 233px auto;
-  width: 877px;
+  margin: 100px 112px 233px 119px;
+  /* width: 877px; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -211,3 +211,54 @@ p > a {
   margin: 100px auto;
   padding: 0 100px;
 }
+
+/* @media (max-width: 767.98px) {
+  .header_contact {
+    height: 500px;
+  }
+
+  .section_happy {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_happy_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_happy_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+} */
+
+@media (max-width: 767.98px) {
+  .header_contact {
+    height: 500px;
+  }
+
+  
+  .section_happy {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_happy_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+  
+
+  .section_happy_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_happy_atricle {
+    margin-right: 0px;
+  }
