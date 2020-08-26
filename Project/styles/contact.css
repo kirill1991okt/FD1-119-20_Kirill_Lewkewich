@@ -162,7 +162,7 @@
   outline: none;
 }
 
-button {
+.textarea_submit button {
   background-color: #f5f7fa;
   width: 136px;
   height: 41px;
