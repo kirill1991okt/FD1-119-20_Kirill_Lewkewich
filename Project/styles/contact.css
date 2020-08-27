@@ -240,7 +240,6 @@ p > a {
     height: 500px;
   }
 
-  
   .section_happy {
     flex-direction: column;
     margin: 100px auto 140px auto;
@@ -250,7 +249,6 @@ p > a {
     width: 100%;
     padding-left: 10%;
   }
-  
 
   .section_happy_photo img:last-child {
     position: static;
@@ -263,31 +261,32 @@ p > a {
     margin-right: 0px;
   }
 
-
-  .textinput{
+  .textinput {
     display: flex;
     flex-direction: column;
   }
 
-  .email_subject{
+  .email_subject {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 
-  .textarea_submit{
+  .textarea_submit {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 
-  .form input{
+  .form input {
     margin-bottom: 50px;
   }
 
-  .email_subject input[type="email"], .email_subject select{
+  .email_subject input[type="email"],
+  .email_subject select {
     margin: 0 0 50px 0;
   }
 
-  .textarea_submit button{
+  .textarea_submit button {
     text-align: center;
     margin: 60px auto 0 auto;
   }
+}

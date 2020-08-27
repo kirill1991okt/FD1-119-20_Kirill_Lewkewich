@@ -451,6 +451,7 @@ div.section_about_photo img:first-child {
 
 .btn {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .btn-dark {
