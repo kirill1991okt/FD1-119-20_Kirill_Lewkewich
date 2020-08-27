@@ -1,5 +1,6 @@
 .header_reservation {
-  background: url("/Project/img/reservation/reservation_background.png") no-repeat;
+  background: url("/Project/img/reservation/reservation_background.png")
+    no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -120,7 +121,6 @@ select {
 
 .data_time input[type="time"] {
   margin: 0 82px 50px 82px;
-
 }
 
 /* .data_time input[type="time"]::before {
@@ -142,7 +142,7 @@ select {
   .section_online {
     flex-direction: column;
     margin: 100px auto 140px auto;
-    padding: 0 ;
+    padding: 0;
   }
 
   .section_online_photo img:first-child {
@@ -162,3 +162,4 @@ select {
     margin-right: 0px;
     margin-left: 0px;
   }
+}
