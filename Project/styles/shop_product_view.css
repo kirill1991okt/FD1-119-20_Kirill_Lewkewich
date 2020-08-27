@@ -265,6 +265,8 @@ ul.nav-pills {
   margin-top: 50px;
 }
 
+
+
 /* секция Related Products */
 
 .related_products h4 {
@@ -280,3 +282,69 @@ ul.nav-pills {
   display: flex;
   justify-content: space-evenly;
 }
+
+@media (max-width: 991.98px) {
+  .header_shop {
+    height: 500px;
+  }
+  .disription_courses {
+    flex-direction: column;
+  }
+
+  .list-unstyled {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .product-gallery {
+    flex-direction: column-reverse;
+  }
+
+  .disription_courses_text .breadcrumb {
+    display: none;
+  }
+
+  .disription_courses_text {
+    margin-left: 0;
+  }
+
+  .product-gallery-featured {
+    padding-left: 0;
+  }
+
+  .thumbnails-list li:last-child
+  {
+    margin-left: 10px;
+  }
+}
+
+
+
+
+@media (max-width: 767.98px) {
+  
+  .product-gallery {
+    flex-direction: column-reverse;
+  }
+
+  .product-gallery-featured img {
+    width: 100%;
+  }
+
+  .list-unstyled {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 650.98px){
+
+    .media_text {
+      order: 3;
+    }
+  
+    .media_date {
+      order: 2;
+    }
+  
+  }
