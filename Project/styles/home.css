@@ -84,18 +84,16 @@ header {
 /* Секция ABOUT */
 
 .section_about {
-  /* width: 927px; */
   display: flex;
   justify-content: center;
   margin: 100px 108px 140px 157px;
-  /* margin: 97px auto 0 auto; */
 }
 
 .section_about_photo {
   position: relative;
 }
 
-div.section_about_photo img:first-child {
+.section_about_photo img:first-child {
   margin-left: 47px;
 }
 
@@ -247,8 +245,7 @@ div.section_about_photo img:first-child {
 /* Секция MENU */
 
 .section_menu {
-  margin: 100px auto 0 auto;
-  width: 877px;
+  margin: 100px 112px 325px 119px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -346,10 +343,10 @@ div.section_about_photo img:first-child {
 /* Секция RESERVATION */
 
 .section_reservation {
-  width: 927px;
   display: flex;
   justify-content: center;
-  margin: 97px auto 0 auto;
+  margin: 97px auto 100px auto;
+  padding: 0 180px 0 110px;
 }
 
 .section_reservation_photo {
@@ -637,8 +634,7 @@ div.section_about_photo img:first-child {
 /* Секция Contact */
 
 .section_contact {
-  margin: 95px auto 0 auto;
-  width: 877px;
+  margin: 100px 112px 233px 119px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -691,4 +687,43 @@ div.section_about_photo img:first-child {
 .section_contact_atricle p:last-child {
   text-align: right;
   margin-top: 0;
+}
+
+@media (max-width: 767.98px) {
+  .section_about,
+  .section_menu,
+  .section_reservation,
+  .section_contact {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+    padding: 0;
+  }
+
+  .section_about_photo img:first-child,
+  .section_menu_photo img:first-child,
+  .section_reservation_photo img:first-child,
+  .section_contact_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+    margin-left: 0;
+  }
+
+  .section_about_photo img:last-child,
+  .section_menu_photo img:last-child,
+  .section_reservation_photo img:last-child,
+  .section_contact_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_about_atricle,
+  .section_menu_atricle,
+  .section_reservation_atricle,
+  .section_contact_atricle {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
