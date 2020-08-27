@@ -132,3 +132,33 @@ select {
   margin: 0px auto;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
+}
+
+@media (max-width: 767.98px) {
+  .header_reservation {
+    height: 500px;
+  }
+
+  .section_online {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+    padding: 0 ;
+  }
+
+  .section_online_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_online_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_online_atricle {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
