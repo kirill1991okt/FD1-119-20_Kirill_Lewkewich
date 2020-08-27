@@ -262,3 +262,32 @@ p > a {
   .section_happy_atricle {
     margin-right: 0px;
   }
+
+
+  .textinput{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email_subject{
+    display: flex;
+    flex-direction: column
+  }
+
+  .textarea_submit{
+    display: flex;
+    flex-direction: column
+  }
+
+  .form input{
+    margin-bottom: 50px;
+  }
+
+  .email_subject input[type="email"], .email_subject select{
+    margin: 0 0 50px 0;
+  }
+
+  .textarea_submit button{
+    text-align: center;
+    margin: 60px auto 0 auto;
+  }
