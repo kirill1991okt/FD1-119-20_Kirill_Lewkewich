@@ -17,10 +17,6 @@
   z-index: 1;
 }
 
-/* секция стилизация поиска */
-
-/* Конец стилизация поиска */
-
 .about_menu_article_text {
   position: absolute;
   bottom: 15%;
@@ -195,6 +191,8 @@
 
 .video {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .video2 {
@@ -205,7 +203,7 @@
   margin-left: -100px;
 }
 
-a.ytp-title-link.yt-uix-sessionlink {
+div.carousel_hours div.carousel a.ytp-title-link.yt-uix-sessionlink {
   display: none;
 }
 
@@ -220,19 +218,90 @@ a.ytp-title-channel-logo {
 a.ytp-title-link.yt-uix-sessionlink {
   display: none;
 }
-/* .main-carousel {
-  width: 30vw;
-  margin: auto;
-}
-.carousel-cell {
-}
-.carousel-cell img {
-  width: 320px;
-  height: 220px;
-  transform: scale(0.85);
-  transition: transform 0.2s ease;
+
+/* Медиа запросы */
+
+@media (max-width: 1030px) {
+  .carousel_hours {
+    flex-direction: column;
+  }
+
+  .open_hours {
+    margin-top: 70px;
+  }
+
+  .video2 {
+    margin: 0px 20px;
+  }
+
+  .video3 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
 
-.carousel-cell.is-selected img {
-  transform: scale(1);
-} */
+@media (max-width: 767.98px) {
+  .header_about {
+    height: 500px;
+  }
+
+  .section_history {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_history_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_history_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_history_atricle {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .section_goals {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_goals_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_goals_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_goals_atricle {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .video {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video2 {
+    margin: 20px 0px;
+  }
+
+  .video3 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}

@@ -1,5 +1,6 @@
 .header_reservation {
-  background: url("/Project/img/reservation/reservation_background.png") no-repeat;
+  background: url("/Project/img/reservation/reservation_background.png")
+    no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -120,7 +121,6 @@ select {
 
 .data_time input[type="time"] {
   margin: 0 82px 50px 82px;
-
 }
 
 /* .data_time input[type="time"]::before {
@@ -132,3 +132,34 @@ select {
   margin: 0px auto;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
+}
+
+@media (max-width: 767.98px) {
+  .header_reservation {
+    height: 500px;
+  }
+
+  .section_online {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+    padding: 0;
+  }
+
+  .section_online_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_online_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_online_atricle {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

@@ -43,8 +43,8 @@
 /* Секция HAPPY */
 
 .section_happy {
-  margin: 100px auto 233px auto;
-  width: 877px;
+  margin: 100px 112px 233px 119px;
+  /* width: 877px; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -162,7 +162,7 @@
   outline: none;
 }
 
-button {
+.textarea_submit button {
   background-color: #f5f7fa;
   width: 136px;
   height: 41px;
@@ -211,3 +211,83 @@ p > a {
   margin: 100px auto;
   padding: 0 100px;
 }
+
+/* @media (max-width: 767.98px) {
+  .header_contact {
+    height: 500px;
+  }
+
+  .section_happy {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_happy_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_happy_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+} */
+
+@media (max-width: 767.98px) {
+  .header_contact {
+    height: 500px;
+  }
+
+  
+  .section_happy {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_happy_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+  
+
+  .section_happy_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_happy_atricle {
+    margin-right: 0px;
+  }
+
+
+  .textinput{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email_subject{
+    display: flex;
+    flex-direction: column
+  }
+
+  .textarea_submit{
+    display: flex;
+    flex-direction: column
+  }
+
+  .form input{
+    margin-bottom: 50px;
+  }
+
+  .email_subject input[type="email"], .email_subject select{
+    margin: 0 0 50px 0;
+  }
+
+  .textarea_submit button{
+    text-align: center;
+    margin: 60px auto 0 auto;
+  }

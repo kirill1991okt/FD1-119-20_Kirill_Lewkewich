@@ -22,8 +22,10 @@
 /* Конец навигации */
 
 .menu_blog_article_text {
-  position: absolute;
-  bottom: 35%;
+  /* position: absolute;
+  bottom: 35%; */
+  margin-top: 30%;
+  text-align: center;
 }
 
 .menu_blog_article_text p {
@@ -44,9 +46,13 @@
   width: 183px;
 }
 
-.button {
+.button button {
   text-align: center;
   margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .button a {
@@ -56,4 +62,19 @@
 
 footer.blog404 {
   margin: 0;
+}
+
+@media (max-width: 991.98px) {
+  .menu_blog_article_text {
+    position: absolute;
+    bottom: 35%;
+  }
+
+  .header_blog {
+    height: 1000px;
+  }
+  .menu_blog_article_text p {
+    text-align: left;
+    font-size: 134px;
+  }
 }

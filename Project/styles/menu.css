@@ -192,3 +192,41 @@ div.courses_image_position:hover {
 .courses_price span {
   color: #dcdee0;
 }
+
+@media (max-width: 767.98px) {
+  .header_menu {
+    height: 500px;
+  }
+
+  .section_discover {
+    flex-direction: column;
+    margin: 100px auto 140px auto;
+  }
+
+  .section_discover_photo img:first-child {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .section_discover_photo img:last-child {
+    position: static;
+    width: 100%;
+    margin-top: -15%;
+    padding-right: 12%;
+  }
+
+  .section_discover_atricle {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  ul.nav-pills {
+    flex-wrap: nowrap;
+  }
+
+  .item_couse h5 {
+    text-align: center;
+    margin: 100px 0 0 0;
+  }
+}
