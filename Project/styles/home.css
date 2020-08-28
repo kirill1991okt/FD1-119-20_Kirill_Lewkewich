@@ -419,7 +419,7 @@ header {
 .section_offers_text {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .section_offers_text > div {
   color: #1e2633;
@@ -689,7 +689,21 @@ header {
   margin-top: 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
+  .section_offers_text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section_offers_text div:nth-child(2) {
+    border-top: solid 2px #d9d9d9;
+    border-bottom: solid 2px #d9d9d9;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media (max-width: 768.98px) {
   .section_about,
   .section_menu,
   .section_reservation,
@@ -725,5 +739,12 @@ header {
     margin-top: 50px;
     margin-right: 0px;
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section_offers_text div:nth-child(2) {
+    border-top: solid 2px #d9d9d9;
+    border-bottom: solid 2px #d9d9d9;
   }
 }

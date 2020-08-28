@@ -64,7 +64,7 @@ footer.blog404 {
   margin: 0;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
   .menu_blog_article_text {
     position: absolute;
     bottom: 35%;
