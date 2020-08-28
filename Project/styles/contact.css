@@ -6,6 +6,7 @@
   height: 700px;
   width: 100%;
   position: relative;
+  background-position: center top;
 }
 
 .overlay {

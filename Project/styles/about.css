@@ -5,6 +5,7 @@
   height: 700px;
   width: 100%;
   position: relative;
+  background-position: center top;
 }
 
 .overlay {
@@ -197,26 +198,17 @@
 
 .video2 {
   margin-left: -100px;
+  z-index: 100;
 }
 
 .video3 {
   margin-left: -100px;
+  z-index: 200;
 }
 
-div.carousel_hours div.carousel a.ytp-title-link.yt-uix-sessionlink {
-  display: none;
-}
-
-.carousel div.ytp-title-channel {
-  display: none;
-}
-
-a.ytp-title-channel-logo {
-  display: none;
-}
-
-a.ytp-title-link.yt-uix-sessionlink {
-  display: none;
+.video video:active,
+.video video:focus {
+  z-index: 9999999;
 }
 
 /* Медиа запросы */
