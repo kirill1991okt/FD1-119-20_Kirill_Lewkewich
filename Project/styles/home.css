@@ -144,7 +144,7 @@ header {
 .section_lunch {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  flex-wrap: wrap;
   position: relative;
 }
 
@@ -169,6 +169,10 @@ header {
   margin-top: 21px;
 }
 
+.lanch_carousel {
+  margin-top: 50px;
+}
+
 .img1 {
   position: relative;
   z-index: 25;
@@ -181,66 +185,52 @@ header {
 }
 
 .img2 {
-  top: 15px;
+  top: 65px;
   right: 105px;
   z-index: 20;
 }
 
 .img3 {
-  top: 20px;
+  top: 70px;
   right: 70px;
   z-index: 10;
 }
 
 .img4 {
-  top: 30px;
+  top: 80px;
   right: 35px;
   z-index: 5;
 }
 
-/* .lunch_carousel {
-  height: 400px;
-  width: 750px;
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img1:hover {
+  z-index: 100;
+  transition: 0.8s;
+  transform: scale(1.1);
 }
 
-.lunch_carousel .carousel-inner {
-  height: 100%;
+.lanch_days {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
-.lunch_carousel .carousel-inner .carousel-item v {
-  z-index: 1;
-  opacity: 1;
-  display: block;
-  visibility: visible;
+.lanch_days p:first-child {
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
-.lunch_carousel .carousel-inner .carousel-item {
-  z-index: 1;
-  opacity: 1;
-  display: block;
-  visibility: visible;
+.lanch_days p:last-child {
+  color: #dcdee0;
+  font-family: "Streetwear";
+  font-size: 20px;
+  margin-top: 30px;
 }
-
-.lunch_carousel .carousel-item:nth-child(2) {
-  height: 80%;
-  opacity: 1;
-  left: 10%;
-}
-.lunch_carousel .carousel-item:nth-child(3) {
-  height: 60%;
-  opacity: 1;
-  left: 20%;
-}
-
-.carousel-fade .carousel-item.active {
-  height: 100%;
-  border: 1px solid lime;
-  transform: scale(1.2);
-  width: 600px;
-  height: 400px;
-} */
 
 /* Секция MENU */
 
@@ -449,6 +439,7 @@ header {
 .btn {
   font-weight: bold;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn-dark {
@@ -689,6 +680,14 @@ header {
   margin-top: 0;
 }
 
+@media (max-width: 1199.98px) {
+  .img2,
+  .img3,
+  .img4 {
+    display: none;
+  }
+}
+
 @media (max-width: 991.98px) {
   .section_offers_text {
     flex-direction: column;
@@ -700,6 +699,18 @@ header {
     border-bottom: solid 2px #d9d9d9;
     border-left: none;
     border-right: none;
+  }
+
+  .section_lunch {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section_lunch_text {
+    margin-right: 0;
+  }
+
+  .lanch_days {
+    flex-direction: column;
   }
 }
 
@@ -742,12 +753,16 @@ header {
   }
 
   .menu_article_text {
-    bottom: 42%;
+    bottom: 45%;
     left: 17%;
   }
 
   .menu_article_text p {
     font-size: 28px;
+  }
+
+  .menu_article_text p:last-child {
+    font-size: 22px;
   }
 }
 
@@ -755,5 +770,9 @@ header {
   .section_offers_text div:nth-child(2) {
     border-top: solid 2px #d9d9d9;
     border-bottom: solid 2px #d9d9d9;
+  }
+
+  .img1 img {
+    width: 100%;
   }
 }
