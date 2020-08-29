@@ -88,3 +88,29 @@
   font-size: 14px;
   text-align: center;
 }
+
+/* Стилизация нумерации */
+
+.pagination {
+  justify-content: center;
+}
+
+.page-link {
+  border: none;
+  color: #1e2633;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #985e5b;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.page-link:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
