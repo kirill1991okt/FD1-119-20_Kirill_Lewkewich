@@ -28,6 +28,21 @@ header {
 
 .home_menu .navbar-nav i {
   color: #1e2633;
+  cursor: pointer;
+}
+
+.sear {
+  border: none;
+  border-bottom: 2px solid #1e2633;
+  outline: none;
+}
+
+.formsearch {
+  display: none;
+}
+
+.search-fa:hover + .formsearch {
+  display: block;
 }
 
 .menu_article_text {
