@@ -1,6 +1,6 @@
 /* Секция HEADER  */
 .header_menu {
-  background: url("/Project/img/menu/menu_background.png") no-repeat;
+  background: url("../img/menu/menu_background.png") no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;

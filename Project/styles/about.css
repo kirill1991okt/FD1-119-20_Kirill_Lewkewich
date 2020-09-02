@@ -1,6 +1,6 @@
 /* Секция HEADER  */
 .header_about {
-  background: url("/Project/img/about/Background.png") no-repeat;
+  background: url("../img/about/Background.png") no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;
