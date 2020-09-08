@@ -1,6 +1,6 @@
 /* Секция HEADER  */
 .header_blog {
-  background: url("/Project/img/blog404/background.png") no-repeat;
+  background: url("../img/blog404/background.png") no-repeat;
   background-size: cover;
   height: 1269px;
   width: 100%;

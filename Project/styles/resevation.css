@@ -1,6 +1,5 @@
 .header_reservation {
-  background: url("/Project/img/reservation/reservation_background.png")
-    no-repeat;
+  background: url("../img/reservation/reservation_background.png") no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;

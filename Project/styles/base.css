@@ -79,7 +79,7 @@ footer .container {
 /* Панель навигации */
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("/Project/img/iconfinder_30x30.png");
+  background-image: url("../img/iconfinder_30x30.png");
 }
 
 .bg-light {

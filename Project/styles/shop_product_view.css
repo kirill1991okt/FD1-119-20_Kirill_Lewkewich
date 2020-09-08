@@ -1,6 +1,6 @@
 /* Секция HEADER  */
 .header_shop {
-  background: url("/Project/img/shop/background.png") no-repeat;
+  background: url("../img/shop/background.png") no-repeat;
   background-size: cover;
   height: 700px;
   width: 100%;
