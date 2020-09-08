@@ -31,18 +31,24 @@ header {
   cursor: pointer;
 }
 
-.sear {
+.input {
   border: none;
   border-bottom: 2px solid #1e2633;
   outline: none;
 }
 
-.formsearch {
+.sear:target {
+  display: block;
+  transition: 0.8s;
+}
+
+.sear {
   display: none;
 }
 
-.search-fa:hover + .formsearch {
+.search-fa:active .formsearch {
   display: block;
+  transition: 0.8s;
 }
 
 .menu_article_text {
